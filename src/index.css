@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.-z-1 {
+    z-index: -1;
+  }
+
+  .origin-0 {
+    transform-origin: 0%;
+  }
+
+  input:focus ~ label,
+  input:not(:placeholder-shown) ~ label,
+  textarea:focus ~ label,
+  textarea:not(:placeholder-shown) ~ label,
+  select:focus ~ label,
+  select:not([value='']):valid ~ label {
+    @apply transform scale-75 -translate-y-6;
+    
+  }
+
+  input:focus ~ label,
+  select:focus ~ label {
+    @apply text-black left-0;
+    
+  }
