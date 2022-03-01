@@ -1,4 +1,4 @@
-# Muziki 
+# Workflow 
 
 
 To get started:
@@ -6,7 +6,7 @@ To get started:
 1. Clone the repository:
 
    ```bash
-        git@github.com:mutua-mutinda/Muziki.git
+        git@github.com:mutua-mutinda/workflow.git
 
 
 
